@@ -148,6 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\gfx\buffers\buffer.cpp" />
+    <ClCompile Include="src\gfx\buffers\index_buffer.cpp" />
+    <ClCompile Include="src\gfx\buffers\vertex_array.cpp" />
     <ClCompile Include="src\gfx\shader.cpp" />
     <ClCompile Include="src\maths\mat4.cpp" />
     <ClCompile Include="src\Application.cpp" />
@@ -158,6 +161,9 @@
     <ClCompile Include="src\maths\vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\gfx\buffers\buffer.h" />
+    <ClInclude Include="src\gfx\buffers\index_buffer.h" />
+    <ClInclude Include="src\gfx\buffers\vertex_array.h" />
     <ClInclude Include="src\gfx\shader.h" />
     <ClInclude Include="src\maths\mat4.h" />
     <ClInclude Include="src\gfx\window.h" />
