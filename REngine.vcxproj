@@ -152,6 +152,7 @@
     <ClCompile Include="src\gfx\buffers\index_buffer.cpp" />
     <ClCompile Include="src\gfx\buffers\vertex_array.cpp" />
     <ClCompile Include="src\gfx\shader.cpp" />
+    <ClCompile Include="src\gfx\simple_2drenderer.cpp" />
     <ClCompile Include="src\maths\mat4.cpp" />
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\gfx\window.cpp" />
@@ -164,6 +165,8 @@
     <ClInclude Include="src\gfx\buffers\buffer.h" />
     <ClInclude Include="src\gfx\buffers\index_buffer.h" />
     <ClInclude Include="src\gfx\buffers\vertex_array.h" />
+    <ClInclude Include="src\gfx\renderable2d.h" />
+    <ClInclude Include="src\gfx\renderer2d.h" />
     <ClInclude Include="src\gfx\shader.h" />
     <ClInclude Include="src\maths\mat4.h" />
     <ClInclude Include="src\gfx\window.h" />
@@ -175,6 +178,7 @@
     <ClInclude Include="src\utils\file_utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\gfx\simple_2drenderer.h" />
     <None Include="src\shaders\basic.frag" />
     <None Include="src\shaders\basic.vert" />
   </ItemGroup>
